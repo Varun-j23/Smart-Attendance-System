@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    margin-top:40px;
+}
+
+h1{
+    color:#333;
+    margin-bottom:20px;
+}
+
+input{
+    padding:10px;
+    width:250px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    padding:10px 15px;
+    margin:5px;
+    border:none;
+    border-radius:5px;
+    background:#007bff;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.student{
+    background:white;
+    margin:15px auto;
+    padding:15px;
+    width:350px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+p{
+    margin:5px;
+}
