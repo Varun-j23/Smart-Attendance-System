@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faculty Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Faculty Dashboard</h1>
+
+    <input
+    type="password"
+    id="facultyPassword"
+    placeholder="Enter Faculty Password">
+
+    <button onclick="loginFaculty()">
+        Login
+    </button>
+
+    <div id="facultyPanel" style="display:none;">
+
+        <br><br>
+
+        <input
+        type="text"
+        id="studentName"
+        placeholder="Enter Student Name">
+
+        <button onclick="addStudent()">
+            Add Student
+        </button>
+
+        <h2 id="summary"></h2>
+
+        <div id="studentList"></div>
+
+    </div>
+
+</div>
+
+<script src="faculty.js"></script>
+
+</body>
+</html>
